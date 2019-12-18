@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  new WOW().init();
+  AOS.init();
 
   $('.first-button').on('click', function () {
 

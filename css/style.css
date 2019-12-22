@@ -187,3 +187,8 @@ transform: rotate(-135deg);
 .hoverthisguy:hover {
 	color: red !important;
 }
+
+
+.letitbig:hover {
+    transform: scale(1.5);
+}

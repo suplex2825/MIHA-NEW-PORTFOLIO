@@ -1,4 +1,16 @@
 $(document).ready(function () {
+   $('.doitnow').AniView({
+     animateThreshold: 100,
+    scrollPollInterval: 20
+   });
+
+
+  var mixer = $('.filterthem').isotope();
+  $('#filters').on( 'click', 'button', function() {
+  var filterValue = $( this ).attr('data-filter');
+  mixer.isotope({ filter: filterValue });
+});
+
   $('.first-button').on('click', function () {
 
     $('.animated-icon1').toggleClass('open');

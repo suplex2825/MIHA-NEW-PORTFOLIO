@@ -8,7 +8,7 @@ $(document).ready(function () {
   var mixer = $('.filterthem').isotope();
   $('#filters').on( 'click', 'button', function() {
   var filterValue = $( this ).attr('data-filter');
-  mixer.isotope({ filter: filterValue });
+  mixer.isotope({ filter: filterValue});
 });
 
   $('.first-button').on('click', function () {
